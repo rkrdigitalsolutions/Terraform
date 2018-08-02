@@ -1,4 +1,5 @@
 # Download the latest Ghost image
+# Test update
 module "image" {
   source = "./image"
   image = "${var.image}"
