@@ -1,5 +1,4 @@
 # Output name and ip address
-# Output name and ip address
 output "IP Address" {
   value = "${module.container.ip}"
 }
